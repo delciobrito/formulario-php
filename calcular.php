@@ -10,6 +10,7 @@ echo "<p>Nota AV2: $notaAv1</p>";
 if(($notaAv1 + $notaAv2)/2 >= 6){
     echo "Situação: APROVADO";
 } else{
-    echo "Situação: ALUNO EM AV3"; 
+    echo "Situação: ALUNO EM AV3";
+    echo "erro"; 
 }
 ?>
