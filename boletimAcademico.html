@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletim Acadêmico</title>
+</head>
+
+<body>
+    <h1>FORMULÁRIO PARA CÁLCULO DE MÉDIA</h1>
+
+    <form action="calcular.php" method="get">
+        <fieldset>
+            <legend>Entrada de Dados</legend>
+            <p>
+                <label for="nomeAluno">Nome do aluno</label> <input type="text" name="f_nome" id="nomeAluno" size="80">
+            </p>
+
+            <p>
+                <label for="nota-1">Nota AV1</label> <input type="number" name="f_av1" id="nota-1" step="0.1">
+            </p>
+
+            <p>
+                <label for="nota-2">Nota AV2</label> <input type="number" name="f_av2" id="nota-2" step="0.1">
+            </p>
+
+            <input type="submit" value="Exibir Resultado">
+            <input type="reset" value="Cancelar">
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
